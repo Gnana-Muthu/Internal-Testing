@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-15T18:10:57 IST" name="Suite" finished-at="2023-02-15T18:13:24 IST" duration-ms="146500">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T18:10:57 IST" name="Test" finished-at="2023-02-15T18:13:24 IST" duration-ms="146500">
+      <class name="com.mindtree.Runner.Runner">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mindtree.Runner.Runner@28261e8e]" started-at="2023-02-15T18:10:57 IST" name="setup" finished-at="2023-02-15T18:11:23 IST" duration-ms="25781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterUSer()[pri:1, instance:com.mindtree.Runner.Runner@28261e8e]" started-at="2023-02-15T18:11:23 IST" name="RegisterUSer" finished-at="2023-02-15T18:12:07 IST" duration-ms="43564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUSer -->
+        <test-method signature="SearchFlight()[pri:2, instance:com.mindtree.Runner.Runner@28261e8e]" started-at="2023-02-15T18:12:07 IST" name="SearchFlight" finished-at="2023-02-15T18:12:42 IST" duration-ms="35134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFlight -->
+        <test-method signature="Login(java.lang.String)[pri:3, instance:com.mindtree.Runner.Runner@28261e8e]" started-at="2023-02-15T18:12:59 IST" name="Login" data-provider="login" finished-at="2023-02-15T18:13:13 IST" duration-ms="14323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gnanamuthugmg@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Negativedetails()[pri:4, instance:com.mindtree.Runner.Runner@28261e8e]" started-at="2023-02-15T18:13:13 IST" name="Negativedetails" finished-at="2023-02-15T18:13:24 IST" duration-ms="10707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negativedetails -->
+        <test-method is-config="true" signature="test()[pri:0, instance:com.mindtree.Runner.Runner@28261e8e]" started-at="2023-02-15T18:13:26 IST" name="test" finished-at="2023-02-15T18:13:34 IST" duration-ms="7667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.mindtree.Runner.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
